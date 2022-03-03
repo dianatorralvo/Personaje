@@ -1,0 +1,174 @@
+body{
+    font-family:Helvetica;
+}
+
+/*----------MENU-------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2rem;
+    border-bottom: 3px solid black;
+}
+
+.secciones{
+    padding: 1rem
+}
+
+.secciones a{
+    margin: auto;
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.secciones a:hover{
+    border-bottom: 2px solid black;
+}
+
+.secciones a:visited {
+    color: #000000;
+    }
+
+
+.logo{
+    width: 250px;
+    padding: 0.5rem
+}
+
+/*-----------BIOGRAFIA-------------*/
+
+
+#biografia{
+    display: flex;
+    padding: 3rem;
+    max-width: 100%;
+    width: fit-content;
+    background-color: rgba(240, 240, 240, 0.63);
+}
+
+.historia{
+    margin-right: 11rem;
+    margin-left: 5rem;
+    padding-top: 12rem;
+}
+
+.historia p{
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.historia h1{
+    font-size: 35px;
+}
+
+.love1 img{
+    width: 450px;
+    margin-right: 3rem;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+
+
+/*-----------ALBUMES-------------*/
+
+
+#albumes{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    background-color: white;
+    margin-top: 3rem;
+    margin-left: 2rem;
+
+}
+
+
+.card img{
+    width: 250px;
+    padding-top: 2rem;
+}
+
+
+#albumes2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.tituloseccion2{
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+
+/*-----------FOOTER-------------*/
+
+
+
+.pie{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+
+}
+
+.pie img{
+    width: 250px;
+}
+
+.pie h3{
+    color: white;
+}
+
+.pie a img{
+    margin-top: 1rem;
+    width: 30px;
+    margin-left: 3rem;
+}
+
+/*----------PREMIOS---------*/
+
+#premios{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    background-color: rgba(240, 240, 240, 0.63);
+}
+
+#premios img{
+    width: 500px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.premiosLove{
+    font-size: 16px;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+.premiosLove th{
+    background-color: #000000;
+    color: white;
+    padding: 0 2rem;
+}
+
+.premiosLove td{
+    border: 1px solid black;
+    padding: 0 3rem;
+}
